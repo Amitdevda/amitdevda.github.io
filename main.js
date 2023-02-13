@@ -61,26 +61,26 @@ let openResume2 = document.getElementById("resume-link-2");
 
 
 
-const carousel = document.querySelector('.carousel');
-const slides = carousel.querySelectorAll('.slide');
-let currentSlide = 0;
+// const carousel = document.querySelector('.carousel');
+// const slides = carousel.querySelectorAll('.slide');
+// let currentSlide = 0;
 
-slides[currentSlide].classList.add('active');
+// slides[currentSlide].classList.add('active');
 
-const prevBtn = document.querySelector('#prev');
-const nextBtn = document.querySelector('#next');
+// const prevBtn = document.querySelector('#prev');
+// const nextBtn = document.querySelector('#next');
 
-prevBtn.addEventListener('click', function () {
-    slides[currentSlide].classList.remove('active');
-    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-    slides[currentSlide].classList.add('active');
-});
+// prevBtn.addEventListener('click', function () {
+//     slides[currentSlide].classList.remove('active');
+//     currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+//     slides[currentSlide].classList.add('active');
+// });
 
-nextBtn.addEventListener('click', function () {
-    slides[currentSlide].classList.remove('active');
-    currentSlide = (currentSlide + 1) % slides.length;
-    slides[currentSlide].classList.add('active');
-});
+// nextBtn.addEventListener('click', function () {
+//     slides[currentSlide].classList.remove('active');
+//     currentSlide = (currentSlide + 1) % slides.length;
+//     slides[currentSlide].classList.add('active');
+// });
 
 
 
