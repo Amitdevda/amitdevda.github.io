@@ -215,10 +215,10 @@ section .title::after{
 .about .title::after{
     content: "who i am";
 }
-.about .about-content .left{
+.about .about-content #left{
     width: 45%;
 }
-.about .about-content .left img{
+.about .about-content #left img{
     height: 400px;
     width: 400px;
     /* object-fit: cover; */
@@ -327,15 +327,15 @@ section .title::after{
 .skills .skills-content .column{
     width: calc(50% - 30px);
 }
-.skills .skills-content .left .text{
+.skills .skills-content #left .text{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
-.skills .skills-content .left p{
+.skills .skills-content #left p{
     text-align: justify;
 }
-.skills .skills-content .left a{
+.skills .skills-content #left a{
     display: inline-block;
     background: crimson;
     color: #fff;
@@ -347,7 +347,7 @@ section .title::after{
     border: 2px solid crimson;
     transition: all 0.3s ease;
 }
-.skills .skills-content .left a:hover{
+.skills .skills-content #left a:hover{
     color: crimson;
     background: none;
 }
@@ -506,10 +506,10 @@ section .title::after{
     font-weight: 600;
     margin-bottom: 10px;
 }
-.contact .contact-content .left p{
+.contact .contact-content #left p{
     text-align: justify;
 }
-.contact .contact-content .left .icons{
+.contact .contact-content #left .icons{
     margin: 10px 0;
 }
 .contact .contact-content .row{
