@@ -48,12 +48,12 @@ var typed = new Typed(".typing-2", {
     loop: true
 });
 
-let openResume = document.getElementById("resume-link-1");
+let openResume = document.getElementById("resume-button-1");
     
     openResume.addEventListener("click", () => {
     window.open('https://drive.google.com/file/d/1wR9F1f2Qx3f47iZOKJQImvXUoDiYcqv_/view?usp=share_link', '_blank'); 
    })
-let openResume2 = document.getElementById("resume-link-2");
+let openResume2 = document.getElementById("resume-button-2");
     
     openResume2.addEventListener("click", () => {
     window.open('https://drive.google.com/file/d/1wR9F1f2Qx3f47iZOKJQImvXUoDiYcqv_/view?usp=share_link', '_blank'); 
