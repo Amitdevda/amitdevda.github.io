@@ -55,9 +55,11 @@ let openResume = document.getElementById("resume-button-1");
    })
 let openResume2 = document.getElementById("resume-button-2");
     
-    openResume2.addEventListener("click", () => {
-    window.open('https://drive.google.com/file/d/1wR9F1f2Qx3f47iZOKJQImvXUoDiYcqv_/view?usp=share_link', '_blank'); 
-   })
+   setTimeout(() => {
+       openResume2.addEventListener("click", () => {
+       window.open('https://drive.google.com/file/d/1wR9F1f2Qx3f47iZOKJQImvXUoDiYcqv_/view?usp=share_link', '_blank'); 
+      })
+   }, 2000);
 
 
 
