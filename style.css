@@ -258,6 +258,19 @@ section .title::after{
     object-fit: cover;
     object-position: 0 -35px;
 }
+#topicon{
+    width: 80%;
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+#topicon img {
+    width:40px;
+    border-radius: 50px;
+}
+.typing-2{
+    font-size: 24.5px;
+}
 
 /* services section styling */
 .services, .teams{
@@ -396,6 +409,7 @@ section .title::after{
 
 .carousel .slides{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     height: 100%;
