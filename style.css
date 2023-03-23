@@ -508,6 +508,21 @@ section .title::after{
     content: "GitHub";
 }
 
+/* Git hub  */
+
+#github-streak-stats{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+#git{
+    width: 60%;
+    margin: auto;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
 /* contact section styling */
 .contact .title::after{
     content: "get in touch";
