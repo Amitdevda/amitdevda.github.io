@@ -194,7 +194,7 @@ section .title::after{
     color: crimson;
     font-weight: 500;
 }
-.homie .homie-content a{
+.homie .homie-content button{
     display: inline-block;
     background: crimson;
     color: #fff;
@@ -206,7 +206,14 @@ section .title::after{
     border: 2px solid crimson;
     transition: all 0.3s ease;
 }
-.homie .homie-content a:hover{
+.homie .homie-content button:hover{
+    color: crimson;
+    background: none;
+}
+.homie-content a{
+    color: #fff;
+}
+.homie-content a:hover{
     color: crimson;
     background: none;
 }
