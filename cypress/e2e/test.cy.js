@@ -380,7 +380,7 @@ describe("Test", function () {
                 "Downloaded file is not in PDF format"
               ).to.be.eq("pdf");
               cy.then(() => {
-                acc_score += 1;
+                acc_score += 3;
               });
             });
           });
