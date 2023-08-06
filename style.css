@@ -251,29 +251,24 @@ section .title::after{
 }
 
 #topicon {
-    width: 60%;
     display: flex;
-    height: 5em;
     margin-top: 5%;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
-    transition: all 0.3s ease;
 }
 #topicon div{
-    text-align: center;
-    width: 5rem;
-    border: 2px solid crimson;
     background: crimson;
     color: #fff;
-    margin:10px;
-    padding: 5px;
+    padding: .3em;
     border-radius: 6px;
     border: 2px solid crimson;
     transition: all 0.3s ease;
 
 }
 #topicon img {
-    width: 40px;
+    object-fit: cover;
+    width: 45px;
+    height: 45px;
     border-radius: 50px;
 }
 
@@ -362,11 +357,14 @@ section .title::after{
 .skills .skills-content .right{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 2em;
+    gap: 1em;
+    text-align: center;
 }
 .skills .skills-content .right img{
     padding: .5em;
     width: 4em;
+    height: 4em;
+    object-fit: cover;
     border: 2px solid crimson;
     border-radius: 10px;
     filter: drop-shadow(0px 0px 10px rgba(220, 20, 60, 0.305));
@@ -381,7 +379,7 @@ section .title::after{
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
-    height: 60vh;
+    /* height: 60vh; */
     overflow: hidden;
     transition: all 0.3s ease;
 }
@@ -668,7 +666,11 @@ footer span a:hover{
         width: 100%;
         margin-bottom: 35px;
     }
-
+    .info{
+        display: flex;
+        gap: 10px;
+    }
+    
 }
 
 @media (max-width: 690px) {
